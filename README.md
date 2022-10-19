@@ -1,10 +1,10 @@
 # RPMS
 browser of my RPMS
 
-collector/iRZ_Collector-X-Y.noarch.rpm - iRZ Collector version X and revision Y
+[collector/iRZ_Collector-3-2.noarch.rpm](collector/iRZ_Collector-3-2.noarch.rpm) - iRZ Collector version 3 and revision 2
 
-You can download rpm by simple command:
+You can install collector by simple command:
 
 ~~~
-rpm -i <URL>
+yum install -y https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collector-3-2.noarch.rpm
 ~~~
