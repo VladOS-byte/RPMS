@@ -6,5 +6,5 @@ browser of my RPMS
 You can install collector by simple command:
 
 ~~~
-yum install -y https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collector-3-2.noarch.rpm
+yum install https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collector-3-2.noarch.rpm
 ~~~
