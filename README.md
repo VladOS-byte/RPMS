@@ -33,3 +33,27 @@ lynx https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ-Collector_3-2_al
 dpkg --install irz-collector_3-2_all.deb
 ~~~
 
+After create link for collector server access
+~~~
+ln -s /usr/local/iRZ_Collector/dist/server.sh /usr/local/bin/collector
+~~~
+
+# Dependencies
+Please, install dependencies.
+You can see requirements after running <code>server.sh</code> script.
+Use your package manager to install it.
+
+# Usage
+~~~
+bash collector
+~~~ 
+
+If pseudo is broken, use
+~~~
+bash /usr/local/iRZ_Collector/dist/server.sh
+~~~
+
+In the second usage You can use option <code>--hard</code> to ignore check any unsupported requirements.
+
+More information about iRZ Collector You can find on https://www.radiofid.ru
+
