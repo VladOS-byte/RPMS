@@ -21,5 +21,8 @@ rpm --install https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collect
 You can install Collector by simple command:
 
 ~~~
-dpkg --install https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ-Collector_3-2_all.deb
+TEMP_DEB="$(mktemp)" &&
+wget -O "$TEMP_DEB" 'https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ-Collector_3-2_all.deb' &&
+sudo dpkg -i "$TEMP_DEB" &&
+rm -f "$TEMP_DEB"
 ~~~
