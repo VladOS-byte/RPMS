@@ -17,7 +17,8 @@ rpm --install https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collect
 or
 
 ~~~
-wget https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collector-3-2.noarch.rpm | rpm --install
+wget https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collector-3-2.noarch.rpm
+rpm --install iRZ_Collector-3-2.noarch.rpm
 ~~~
 
 # DEB
