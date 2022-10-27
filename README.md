@@ -14,6 +14,12 @@ or
 rpm --install https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collector-3-2.noarch.rpm
 ~~~
 
+or
+
+~~~
+wget https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ_Collector-3-2.noarch.rpm | rpm --install
+~~~
+
 # DEB
 
 [collector/iRZ-Collector_3-2_all.deb](collector/iRZ-Collector_3-2_all.deb) - iRZ Collector version 3 and revision 2 for Debian Kernel
