@@ -1,3 +1,7 @@
+# NEWS
+
+iRZ Collector 3.3 added. You can download it using tutorial with changing version - revision index (3.2 -> 3.3).
+
 # RPM
 
 [collector/iRZ_Collector-3-2.noarch.rpm](collector/iRZ_Collector-3-2.noarch.rpm) - iRZ Collector version 3 and revision 2 for Fedora Kernel
