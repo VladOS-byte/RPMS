@@ -1,6 +1,24 @@
+# About
+
+What's app! There are a lot of options to download [iRZ Collector](https://www.radiofid.ru/programmnoe-obespechenie/irz-collector/) Software.
+
 # NEWS
 
-iRZ Collector 3.3 added. You can download it using tutorial with changing version - revision index (3.2 -> 3.3).
+📣 iRZ Collector Server 3.3 added. You can download it ([RPM](collector/iRZ_Server-3-3.noarch.rpm) or [DEB](collector/iRZ-Server_3-3_all.deb)) using tutorial with changing version - revision index (3.2 -> 3.3).
+
+📣 iRZ Dispatcher 3.3 added. You can download it ([RPM](collector/iRZ_Dispatcher-3-3.noarch.rpm) or [DEB](collector/iRZ-Dispatcher_3-3_all.deb)) using tutorial with changing file name (Server -> Dispatcher) and version - revision index (3.2 -> 3.3).
+
+📣 Add tar.gz archives for all repos.
+
+# TAR
+
+You can use <code>tar</code> utility in your terminal for unzip archive and use it by command:
+
+~~~
+tar -xzvf iRZ_Server-3.2.tar.gz
+~~~
+
+You can create link or use <code>configurator.sh</code> script native.
 
 # RPM
 
@@ -61,9 +79,15 @@ Use your package manager to install it.
 collector
 ~~~ 
 
+... or <code>bash collector</code>. You can use <code>dispatcher</code> too.
+
 If pseudo is broken, use
 ~~~
-bash /usr/local/iRZ_Server/dist/configurator.sh
+bash /usr/local/iRZ_Server/configurator.sh
+~~~
+or
+~~~
+bash /usr/local/iRZ_Server/dispatcher.sh
 ~~~
 
 In the second usage You can use option <code>--hard</code> to ignore check any unsupported requirements.
