@@ -55,8 +55,10 @@ You can see requirements after running <code>configurator.sh</code> script.
 Use your package manager to install it.
 
 # Usage
+*need root rights.
+
 ~~~
-bash collector
+collector
 ~~~ 
 
 If pseudo is broken, use
