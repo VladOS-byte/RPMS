@@ -52,7 +52,7 @@ You can install Server by multiple command:
 ~~~
 TEMP_DEB="$(mktemp)" &&
 wget -O "$TEMP_DEB" 'https://github.com/VladOS-byte/RPMS/raw/main/collector/iRZ-Server_3-2_all.deb' &&
-sudo dpkg --intsall "$TEMP_DEB" &&
+sudo dpkg --install "$TEMP_DEB" &&
 rm -f "$TEMP_DEB"
 ~~~
 
