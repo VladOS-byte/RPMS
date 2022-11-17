@@ -64,7 +64,7 @@ dpkg --install irz-server_3-2_all.deb
 
 After create link for collector server access
 ~~~
-ln -s /usr/local/iRZ_Server/dist/configurator.sh /usr/local/bin/collector
+ln -s -f /usr/local/iRZ_Server/configurator.sh /usr/local/bin/collector
 ~~~
 
 # Dependencies
