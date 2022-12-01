@@ -4,6 +4,8 @@ What's app! There are a lot of options to download [iRZ Collector](https://www.r
 
 # NEWS
 
+📣 iRZ Collector 4.0 added. You can download iRZ Collector Server ([RPM](collector/iRZ_Server-4-0.noarch.rpm) or [DEB](collector/iRZ-Server_4-0_all.deb)), and iRZ Dispatcher ([RPM](collector/iRZ_Dispatcher-4-0.noarch.rpm) or [DEB](collector/iRZ-Dispatcher_4-0_all.deb)) using tutorial with changing version - revision index (3.2 -> 4.0).
+
 📣 iRZ Collector Server 3.3 added. You can download it ([RPM](collector/iRZ_Server-3-3.noarch.rpm) or [DEB](collector/iRZ-Server_3-3_all.deb)) using tutorial with changing version - revision index (3.2 -> 3.3).
 
 📣 iRZ Dispatcher 3.3 added. You can download it ([RPM](collector/iRZ_Dispatcher-3-3.noarch.rpm) or [DEB](collector/iRZ-Dispatcher_3-3_all.deb)) using tutorial with changing file name (Server -> Dispatcher) and version - revision index (3.2 -> 3.3).
